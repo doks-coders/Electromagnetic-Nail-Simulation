@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="p5.js"></script>
+  <title>Magnetic Experiment</title>
+</head>
+<body>
+  <h1>ElectroMagnetic Simulation</h1>
+  <main>
+  </main>
+  <table style="width:100%">
+    
+    <tr>
+      <td>
+        <p>Current Input</p>
+        <input id="CurrentInput" type="range" step="10" name="points" min="0" max="500">
+        <p>Value = <span id="currentValue"></span>A</p>
+    
+      </td>
+      <td>
+        <p>Number of Wire Turns(N)</p>
+  <input id="WireTurns" type="range" name="points" min="0" max="100">
+  <p>Value = <span id="turnsValue"></span> turns</p>
+  
+      </td>
+      <td>
+        <p>Permeability(%)</p>
+        <input id="Permeability" type="range" value="1" name="points" min="0" max="6000">
+        <p>Value = <span id="permeablityValue"></span></p>
+    
+      </td>
+
+      <td>
+        <p>Flux Density(B)</p>
+        <input id="flux_density" type="range" step="0.1"  value="0.25" name="points" min="0.1" max="1">
+        <p>Value = <span id="flux_densityValue"></span>T</p>
+    
+      </td>
+    </tr>
+
+      
+    <tr>
+      <td>
+       
+        <p>Total Magnetic Flux(+)</p>
+      
+        <p>Value = <span id="TotalMagneticFlux"></span></p>
+    
+      </td>
+        <td>
+       
+        <p>Radius(r)</p>
+      
+        <p>Value = <span id="radius"></span></p>
+    
+      </td>
+    </tr>
+    
+
+    
+  </table>
+
+
+ 
+  
+
+</body>
+<script src="sketch.js"></script>
+</html>
+
+
+
+
+
+ 
+
+
